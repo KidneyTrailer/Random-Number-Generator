@@ -1,0 +1,6 @@
+C:\Users\ngord\git\Random-Number-Generator\RandomNumsFromCards\bin\Debug\RandomNumsFromCards.exe.config
+C:\Users\ngord\git\Random-Number-Generator\RandomNumsFromCards\bin\Debug\RandomNumsFromCards.exe
+C:\Users\ngord\git\Random-Number-Generator\RandomNumsFromCards\bin\Debug\RandomNumsFromCards.pdb
+C:\Users\ngord\git\Random-Number-Generator\RandomNumsFromCards\obj\Debug\RandomNumsFromCards.csproj.CoreCompileInputs.cache
+C:\Users\ngord\git\Random-Number-Generator\RandomNumsFromCards\obj\Debug\RandomNumsFromCards.exe
+C:\Users\ngord\git\Random-Number-Generator\RandomNumsFromCards\obj\Debug\RandomNumsFromCards.pdb

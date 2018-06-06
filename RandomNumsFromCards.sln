@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomNumsFromCards", "RandomNumsFromCards\RandomNumsFromCards.csproj", "{69C485CC-589C-4236-8A8F-CCE0EEBCB60A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeckUnitTest", "DeckUnitTest\DeckUnitTest.csproj", "{A9865738-D3A9-4D05-89B2-BCF99F0E9B82}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,8 +17,15 @@ Global
 		{69C485CC-589C-4236-8A8F-CCE0EEBCB60A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69C485CC-589C-4236-8A8F-CCE0EEBCB60A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69C485CC-589C-4236-8A8F-CCE0EEBCB60A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9865738-D3A9-4D05-89B2-BCF99F0E9B82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9865738-D3A9-4D05-89B2-BCF99F0E9B82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9865738-D3A9-4D05-89B2-BCF99F0E9B82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9865738-D3A9-4D05-89B2-BCF99F0E9B82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C753FA4D-E5D4-45AA-B14F-51A33B5A2704}
 	EndGlobalSection
 EndGlobal

@@ -1,7 +1,7 @@
 ﻿using System;
 namespace RandomNumsFromCards
 {
-    class Deck
+    public class Deck
     {
 
         private readonly Card[] _cards;
