@@ -1,6 +1,0 @@
-c:\users\nicholas gorden\documents\visual studio 2012\Projects\RandomNumsFromCards\RandomNumsFromCards\bin\Debug\RandomNumsFromCards.exe.config
-c:\users\nicholas gorden\documents\visual studio 2012\Projects\RandomNumsFromCards\RandomNumsFromCards\bin\Debug\RandomNumsFromCards.exe
-c:\users\nicholas gorden\documents\visual studio 2012\Projects\RandomNumsFromCards\RandomNumsFromCards\bin\Debug\RandomNumsFromCards.pdb
-c:\users\nicholas gorden\documents\visual studio 2012\Projects\RandomNumsFromCards\RandomNumsFromCards\obj\Debug\RandomNumsFromCards.csprojResolveAssemblyReference.cache
-c:\users\nicholas gorden\documents\visual studio 2012\Projects\RandomNumsFromCards\RandomNumsFromCards\obj\Debug\RandomNumsFromCards.exe
-c:\users\nicholas gorden\documents\visual studio 2012\Projects\RandomNumsFromCards\RandomNumsFromCards\obj\Debug\RandomNumsFromCards.pdb

@@ -8,43 +8,18 @@ namespace RandomNumsFromCards
 {
     class Card
     {
-        int value, suit;
-
-        public Card(int value)
+        public Card(CardValue cardValue, Suit suit)
         {
-            this.value = (value % 13) + 1;
-            int suitValue = (value > 52) ? value - 52 * (value / 52) : value;
-            this.suit = (suitValue < 52 / 4) ? 0 : (suitValue < 52 / 2) ? 1 : (suitValue < 52 * 3 / 4) ? 2 : 3;
+            Value = cardValue;
+            Suit = suit;
         }
 
-        string GetCardType() 
-        {
-            string card = "";
-            if (value == 1) card = "Ace";
-            else if (value == 11) card = "Jack";
-            else if (value == 12) card = "Queen";
-            else if (value == 13) card = "King";
-            else card = Convert.ToString(value);
-            return card;
-        }
-
-        string GetSuit()
-        {
-            string result = "Spades";
-            if (suit == 1) result = "Hearts";
-            else if (suit == 2) result = "Clubs";
-            else if (suit == 3) result = "Diamonds";
-            return result;
-        }
-
-        public int GetValue()
-        {
-            return value;
-        }
+        public CardValue Value { get; private set; }
+        public Suit Suit { get; private set; }
 
         public void Print()
         {
-            Console.WriteLine("A {0} of {1}.", GetCardType(), GetSuit());
+            Console.WriteLine("A {0} of {1}.", Value, Suit);
         }
     }
 }

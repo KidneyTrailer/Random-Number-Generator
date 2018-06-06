@@ -1,57 +1,63 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace RandomNumsFromCards
 {
     class Deck
     {
 
-        Card[] cards;
-        int deckLength, numDecks;
+        private readonly Card[] _cards;
+        private readonly int _deckLength;
+        private readonly int _numDecks;
 
         public Deck(int numDecks = 1)
         {
-            this.numDecks = numDecks;
-            this.deckLength = 52 * numDecks;
-            cards = new Card[deckLength];
-            for (int i = 0; i < cards.Length; ++i)
-                cards[i] = new Card(i);
+            _numDecks = numDecks;
+            _deckLength = 52 * numDecks;
+            _cards = new Card[_deckLength];
+
+            var index = 0;
+
+            foreach (var cardValue in Enum.GetValues(typeof(CardValue)))
+            {
+                foreach(var suit in Enum.GetValues(typeof(Suit)))
+                {
+                    _cards[index++] = new Card((CardValue)cardValue, (Suit)suit);
+                }
+            }
         }
 
         public int GetCardValue(int i)
         {
-            return cards[i].GetValue();
+            return (int)_cards[i].Value;
         }
 
         public int GetLength()
         {
-            return deckLength;
+            return _deckLength;
         }
 
         public int GetNumDecks()
         {
-            return numDecks;
+            return _numDecks;
         }
 
         public void Print()
         {
-            Console.WriteLine("{0} {1} card deck[s].", numDecks, deckLength / numDecks);
+            Console.WriteLine("{0} {1} card deck[s].", _numDecks, _deckLength / _numDecks);
         }
 
-        public void Show() 
+        public void Show()
         {
-            foreach (Card c in cards)
+            foreach (Card c in _cards)
+            {
                 c.Print();
+            }
         }
 
         public void Swap(int a, int b)
         {
-            Card temp = cards[a];
-            cards[a] = cards[b];
-            cards[b] = temp;
+            Card temp = _cards[a];
+            _cards[a] = _cards[b];
+            _cards[b] = temp;
         }
     }
 }
