@@ -13,7 +13,7 @@ namespace RandomNumsFromCards
 
         public Program()
         {
-            myDeck = new Deck();
+            myDeck = new Deck(2);
             rand = new Random();
         }
 

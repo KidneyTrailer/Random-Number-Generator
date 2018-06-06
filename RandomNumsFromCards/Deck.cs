@@ -16,11 +16,13 @@ namespace RandomNumsFromCards
 
             var index = 0;
 
-            foreach (var cardValue in Enum.GetValues(typeof(CardValue)))
-            {
-                foreach(var suit in Enum.GetValues(typeof(Suit)))
+            for (int i = 0; i < numDecks; i++) {
+                foreach (var cardValue in Enum.GetValues(typeof(CardValue)))
                 {
-                    _cards[index++] = new Card((CardValue)cardValue, (Suit)suit);
+                    foreach (var suit in Enum.GetValues(typeof(Suit)))
+                    {
+                        _cards[index++] = new Card((CardValue)cardValue, (Suit)suit);
+                    }
                 }
             }
         }
