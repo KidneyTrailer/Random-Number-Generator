@@ -1,0 +1,17 @@
+C:\Users\ngord\git\Random-Number-Generator\DeckUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\ngord\git\Random-Number-Generator\DeckUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\ngord\git\Random-Number-Generator\DeckUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\ngord\git\Random-Number-Generator\DeckUnitTest\bin\Debug\DeckUnitTest.dll
+C:\Users\ngord\git\Random-Number-Generator\DeckUnitTest\bin\Debug\DeckUnitTest.pdb
+C:\Users\ngord\git\Random-Number-Generator\DeckUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\ngord\git\Random-Number-Generator\DeckUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\ngord\git\Random-Number-Generator\DeckUnitTest\bin\Debug\RandomNumsFromCards.exe
+C:\Users\ngord\git\Random-Number-Generator\DeckUnitTest\bin\Debug\RandomNumsFromCards.pdb
+C:\Users\ngord\git\Random-Number-Generator\DeckUnitTest\bin\Debug\RandomNumsFromCards.exe.config
+C:\Users\ngord\git\Random-Number-Generator\DeckUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\ngord\git\Random-Number-Generator\DeckUnitTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\ngord\git\Random-Number-Generator\DeckUnitTest\obj\Debug\DeckUnitTest.csprojAssemblyReference.cache
+C:\Users\ngord\git\Random-Number-Generator\DeckUnitTest\obj\Debug\DeckUnitTest.csproj.CoreCompileInputs.cache
+C:\Users\ngord\git\Random-Number-Generator\DeckUnitTest\obj\Debug\DeckUnitTest.csproj.CopyComplete
+C:\Users\ngord\git\Random-Number-Generator\DeckUnitTest\obj\Debug\DeckUnitTest.dll
+C:\Users\ngord\git\Random-Number-Generator\DeckUnitTest\obj\Debug\DeckUnitTest.pdb
