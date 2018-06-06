@@ -8,19 +8,22 @@ namespace RandomNumsFromCards
         private readonly int _deckLength;
         private readonly int _numDecks;
 
-        public Deck(int numDecks = 1)
+        public Deck(int numDecks = 2)
         {
             _numDecks = numDecks;
             _deckLength = 52 * numDecks;
             _cards = new Card[_deckLength];
-
+            
             var index = 0;
 
-            foreach (var cardValue in Enum.GetValues(typeof(CardValue)))
+            for (int i = 0; i < numDecks; i++)
             {
-                foreach(var suit in Enum.GetValues(typeof(Suit)))
+                foreach (var cardValue in Enum.GetValues(typeof(CardValue)))
                 {
-                    _cards[index++] = new Card((CardValue)cardValue, (Suit)suit);
+                    foreach (var suit in Enum.GetValues(typeof(Suit)))
+                    {
+                        _cards[index++] = new Card((CardValue)cardValue, (Suit)suit);
+                    }
                 }
             }
         }
