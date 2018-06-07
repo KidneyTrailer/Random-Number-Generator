@@ -13,7 +13,7 @@ namespace RandomNumsFromCards
 
         public Program()
         {
-            myDeck = new Deck();
+            myDeck = new Deck(2);
             rand = new Random();
         }
 
@@ -65,7 +65,6 @@ namespace RandomNumsFromCards
         static void Main(string[] args)
         {
             Program p = new Program();
-            p.myDeck.Show();
             Console.WriteLine(p.GetNumFromCards(p.myDeck));
 
             Console.WriteLine("\nPress Enter to continue...");
