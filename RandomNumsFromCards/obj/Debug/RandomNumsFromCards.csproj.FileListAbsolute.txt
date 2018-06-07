@@ -1,0 +1,7 @@
+C:\Users\10272931\git\Random-Number-Generator\RandomNumsFromCards\bin\Debug\RandomNumsFromCards.exe.config
+C:\Users\10272931\git\Random-Number-Generator\RandomNumsFromCards\bin\Debug\RandomNumsFromCards.exe
+C:\Users\10272931\git\Random-Number-Generator\RandomNumsFromCards\bin\Debug\RandomNumsFromCards.pdb
+C:\Users\10272931\git\Random-Number-Generator\RandomNumsFromCards\obj\Debug\RandomNumsFromCards.csprojAssemblyReference.cache
+C:\Users\10272931\git\Random-Number-Generator\RandomNumsFromCards\obj\Debug\RandomNumsFromCards.csproj.CoreCompileInputs.cache
+C:\Users\10272931\git\Random-Number-Generator\RandomNumsFromCards\obj\Debug\RandomNumsFromCards.exe
+C:\Users\10272931\git\Random-Number-Generator\RandomNumsFromCards\obj\Debug\RandomNumsFromCards.pdb
