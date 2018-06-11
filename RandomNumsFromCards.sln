@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomNumsFromCards", "Rand
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RNFC.Test", "RNFC.Test\RNFC.Test.csproj", "{1289EC6D-2F5B-49C1-94B4-A97341F39739}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RNFC.SpecFlow.Tests", "RNFC.SpecFlow.Tests\RNFC.SpecFlow.Tests.csproj", "{D4562851-3D9A-4C86-8823-1A7FC2956280}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1289EC6D-2F5B-49C1-94B4-A97341F39739}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1289EC6D-2F5B-49C1-94B4-A97341F39739}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1289EC6D-2F5B-49C1-94B4-A97341F39739}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4562851-3D9A-4C86-8823-1A7FC2956280}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4562851-3D9A-4C86-8823-1A7FC2956280}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4562851-3D9A-4C86-8823-1A7FC2956280}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4562851-3D9A-4C86-8823-1A7FC2956280}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
